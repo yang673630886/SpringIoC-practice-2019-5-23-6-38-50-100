@@ -6,7 +6,7 @@
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <!--Code here-->
-    <bean id="helloWorld" class="com.example.SpringIoCpractice.HelloWorld">
-        <property name="name" value="Spring"></property> <!-- 需要有setter方法，对应name的方法是setName -->
+    <bean id="helloworld" class="com.example.SpringIoCpractice.HelloWorld">
+        <property name="hello" value="HelloWorld!!!!"/> <!-- 需要有setter方法，对应name的方法是setName -->
     </bean>
 </beans>
